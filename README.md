@@ -1,3 +1,6 @@
+#⚠️ This README is from the original Linux version of SMD.
+For Windows instructions, see README.txt
+
 # Spotify Music Downloader (SMD) Desktop | **<a href="https://t.me/SpotifyMusicDownloaderBot"><b>Telegram</b></a>**
 # NEW DEV VERSION **<a href="https://github.com/artyshko/smd/tree/dev_ea-0"><b>HERE</b></a>** (As the bot is down, you can use this CLI version)
 # The SMD project is temporarily frozen due to having problems with a DMCA.
