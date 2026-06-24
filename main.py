@@ -7,7 +7,7 @@ from apple import AppleMusic
 from deezer import Deezer
 import sys, getopt, shutil
 import os, re, random
-import notify2
+# import notify2
 from pygame import mixer
 
 
@@ -31,7 +31,10 @@ class MusicDownloader(object):
 
         #downloading video from youtube
         if self.__youtube.download(
-            url=self.__youtube.getResult(),
+            url = self.__youtube.getResult()
+if not url:
+    print("No YouTube results found for this track.")
+    return False
             path=uri,
             filename=uri
         ):
@@ -740,8 +743,9 @@ class notify(object):
     image = os.getcwd() + '/Data/icon.png'
     sound_info = os.getcwd() + '/Data/i.mp3'
     sound_warn = os.getcwd() + '/Data/w.mp3'
-    try:notify2.init("Spotify Music Downloader Notifier")
-    except:pass
+# try:notify2.init("Spotify Music Downloader Notifier")
+# except:pass
+
 
     @staticmethod
     def sound(error=False):
