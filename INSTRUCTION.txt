@@ -1,0 +1,13 @@
+1. Install Python 3.10 or newer
+2. Install ffmpeg and add it to PATH
+3. Install required Python packages:
+       pip install -r requirements.txt
+4. (Optional) Install PyQtWebEngine if needed:
+       pip install PyQtWebEngine
+
+Running the program:
+    py -3.10 main.py -yv "YouTube URL"
+    py -3.10 main.py -ym "YouTube Music URL"
+    py -3.10 main.py -q "song name"
+
+Linux instructions from the original project are removed because this fork is Windows-focused.
