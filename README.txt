@@ -15,9 +15,6 @@ I fixed imports, removed Linux‑only modules, and made the program run on Windo
 - Spotify mode is unstable (YouTube search issues)
 - Some Linux‑only features are removed
 
-!!!This version does not include API keys.  
-Users must provide their own Genius/Spotify credentials if needed.
-
 ## Credits
 Original project by [artyshko](https://github.com/artyshko).  
-This repository only contains Windows fixes and patches.
+
