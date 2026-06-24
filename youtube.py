@@ -17,7 +17,7 @@ with contextlib.redirect_stdout(None):
     import moviepy.editor as mp
 
 import imageio
-imageio.plugins.ffmpeg.download()
+# imageio.plugins.ffmpeg.download()
 from moviepy.editor import *
 import moviepy.editor as mp
 
@@ -65,7 +65,7 @@ class Youtube(object):
 
 
     def getResult(self,i=0):
-        return self.__result[i]
+      return self.__result[i] if len(self.__result) > i else None
 
 
     def getFullResult(self):
